@@ -1,0 +1,2 @@
+# symmetry-agnostic-hard-magnets
+

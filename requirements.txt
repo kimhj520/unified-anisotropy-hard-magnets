@@ -1,0 +1,11 @@
+# Core Python dependencies for the machine-learning pipeline.
+# (External tools used separately: MatterGen, CHGNet, MACE, SevenNet, VASP.)
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+pymatgen
+mp-api
+matplotlib
+torch          # for the CGCNN structural embeddings

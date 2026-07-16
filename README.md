@@ -1,11 +1,11 @@
-# Symmetry-Agnostic Discovery of Hard Magnets via Unified Effective Anisotropy and Generative Exploration
+# Broadening Hard-Magnet Discovery Beyond Symmetry Constraints via Unified Effective Anisotropy
 
 Code, trained models, and confirmed candidate structures accompanying the manuscript
-**"Symmetry-Agnostic Discovery of Hard Magnets via Unified Effective Anisotropy and Generative Exploration"**
+**"Broadening Hard-Magnet Discovery Beyond Symmetry Constraints via Unified Effective Anisotropy"**
 (H. Kim, H. Shin, K. Nam, S. Noh, D. Kim, Y. Jung).
 
 This repository provides the machine-learning pipeline used to screen rare-earth-free hard-magnet
-candidates across all seven crystal systems with a unified, symmetry-agnostic effective-anisotropy
+candidates across all seven crystal systems with a unified, symmetry-independent effective-anisotropy
 descriptor (*K*<sub>eff</sub>), together with the generative-exploration workflow and the analysis scripts.
 
 ## Repository structure

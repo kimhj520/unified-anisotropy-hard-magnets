@@ -16,7 +16,9 @@ descriptor (*K*<sub>eff</sub>), together with the generative-exploration workflo
 - `screening/` — application of the trained models to candidate structures and κ-threshold sensitivity analysis.
 - `generative/` — featurization and property prediction for MatterGen-generated structures.
 - `analysis/` — compositional-similarity analysis and feature-group importance analysis.
-- `structures/` — the five DFT- and phonon-confirmed generated hard magnets (CIF).
+- `structures/` — the five DFT-confirmed generated candidate structures (CIF).
+- `data/` — the processed structure–property table (2,762 MCA-labeled entries with structures)
+  and the fixed cross-validation splits used in this work (see `data/README.md`).
 
 ## Confirmed candidate structures (`structures/`)
 
@@ -38,11 +40,15 @@ hardcoded key has been removed and scripts contain a `YOUR_MP_API_KEY` placehold
 
 ## Data availability
 
-The trained models and the confirmed candidate structures are included here. The DFT-labeled
-magnetocrystalline-anisotropy **training dataset** was generated using industrial computational
-resources under a research collaboration and is available from the corresponding author on
-reasonable request. Public inputs (Materials Project structures; the Novamag uniaxial dataset)
-are available from their original sources. See `DATA_AVAILABILITY.md`.
+The trained models, the confirmed candidate structures, the **processed structure–property
+table** of the MCA-labeled training dataset (structures with computed anisotropy, magnetization,
+symmetry, and label information; `data/`), and the **fixed cross-validation splits** used in
+this work are included here — together sufficient to retrain and evaluate the reported models.
+The raw DFT calculation files were generated using industrial computational resources under a
+research collaboration and cannot be redistributed under the collaboration agreement; they
+remain available from the corresponding author on reasonable request. Public inputs
+(Materials Project structures; the Novamag database) are available from their original
+sources. See `DATA_AVAILABILITY.md` and `data/README.md`.
 
 ## Notes
 

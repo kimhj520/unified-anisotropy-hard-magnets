@@ -1,0 +1,61 @@
+DATA LICENSE
+
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) 2026 Hojae Kim
+
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+
+WHAT THIS COVERS
+
+    The datasets released in this repository, namely:
+
+    - `structures/`  the five DFT-confirmed generated candidate structures (CIF);
+    - `data/structure_property_table.csv`  the processed structure-property
+      dataset (effective anisotropy K_eff, magnetization, symmetry, and
+      easy-axis labels for 2,762 entries);
+    - `data/cv_splits/`  the fixed cross-validation splits used in this work.
+
+    You may share and adapt this material for noncommercial purposes, provided
+    you give appropriate credit and indicate whether changes were made.
+
+    The software in this repository (pipeline source code, analysis scripts,
+    and trained model weights) is NOT covered by this license. It is licensed
+    under the PolyForm Noncommercial License 1.0.0; see `LICENSE`.
+
+
+ATTRIBUTION
+
+    H. Kim, H. Shin, K. Nam, S. Noh, D. Kim, Y. Jung,
+    "Broadening Hard-Magnet Discovery Beyond Symmetry Constraints via Unified
+    Effective Anisotropy", Advanced Science (2026).
+    https://github.com/kimhj520/unified-anisotropy-hard-magnets
+
+
+THIRD-PARTY MATERIAL (not licensed by us)
+
+    The crystal structures mirrored in `data/structures/` originate from public
+    databases and remain governed by the terms of their original sources. The
+    CC BY-NC 4.0 license above applies to our contribution -- the computed
+    K_eff labels, the assembled table, and the cross-validation splits -- and
+    not to the underlying third-party structures:
+
+    - 1,732 structures from the Materials Project (CC BY 4.0),
+      https://materialsproject.org
+    - 1,027 structures from the Novamag database
+      (P. Nieves et al., Comput. Mater. Sci. 2019),
+      http://crono.ubu.es/novamag/
+
+    Users obtaining those structures from their original sources are subject
+    only to the original terms.
+
+
+NOT INCLUDED
+
+    The raw DFT calculation files underlying the MP-derived labels were
+    generated using industrial computational resources under a research
+    collaboration and cannot be redistributed under that agreement. They
+    remain available from the corresponding author on reasonable request
+    (yousung.jung@snu.ac.kr). See `DATA_AVAILABILITY.md`.

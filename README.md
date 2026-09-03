@@ -62,7 +62,20 @@ environment; file paths and some helper references may require adaptation to you
 
 ## License
 
-Released under the MIT License — see `LICENSE`.
+This repository is released under two licenses, separating software from data.
+
+- **Software** — the machine-learning pipeline, analysis scripts, and trained model
+  weights (`descriptor/`, `features/`, `models/`, `screening/`, `generative/`,
+  `analysis/`) are licensed under the
+  [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0)
+  — see `LICENSE`.
+- **Data** — the five DFT-confirmed candidate structures (`structures/`), the processed
+  structure–property dataset, and the fixed cross-validation splits (`data/`) are licensed
+  under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — see `LICENSE-DATA`.
+
+Both licenses permit noncommercial use only. Crystal structures mirrored from the Materials
+Project and the Novamag database remain governed by the terms of their original sources
+(see `LICENSE-DATA`).
 
 ## Citation
 

@@ -37,3 +37,9 @@ feature tables after `dropna()`, as in `models/train_classifier_regressor.py`):
 - `regression_folds.csv` — 2,077 rows (`row_index`, `entry_id`, `fold` 1–5); `KFold`.
 - `classification_folds.csv` — 1,323 rows (`row_index`, `entry_id`, `label`, `fold` 1–5);
   `StratifiedKFold` stratified on the binarized easy-axis label.
+
+## License
+
+This dataset is released under the Creative Commons Attribution-NonCommercial 4.0
+International license (CC BY-NC 4.0); see `../LICENSE-DATA`. The mirrored Materials
+Project and Novamag structures remain governed by the terms of their original sources.

@@ -1,5 +1,16 @@
 # Data and Code Availability
 
+## Licensing
+
+- **Software** (pipeline source code, analysis scripts, trained model weights):
+  PolyForm Noncommercial License 1.0.0 — see `LICENSE`.
+- **Data** (the five DFT-confirmed candidate structures, the processed structure–property
+  dataset, and the fixed cross-validation splits): Creative Commons
+  Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) — see `LICENSE-DATA`.
+
+Both permit noncommercial use only. Crystal structures mirrored from the Materials Project
+and the Novamag database remain governed by their original terms.
+
 ## Included in this repository
 - The machine-learning pipeline code (descriptor, feature generation, model training,
   screening, generative featurization/prediction, and analysis).
